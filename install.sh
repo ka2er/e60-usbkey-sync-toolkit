@@ -3,7 +3,7 @@
 usage() {
 	echo "usage: $0 -d <device_block_name> -p <rsync_path> -e <email>" >&2
 	echo "" >&2
-	echo "	exemple : $0 -d sda -p /rsync_frpm -e user@email.org" >&2
+	echo "	exemple : $0 -d sda -p /rsync_from/ -e user@email.org" >&2
  }
 
 optspec=":hd:e:p:"
